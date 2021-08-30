@@ -1,0 +1,127 @@
+body {
+ margin: 0;
+ padding: 0 10px;
+ background-color: #31323E;
+ font-size: 15pt;
+}
+.coral-text{
+ color: coral;
+}
+img{
+ width: 100%;
+}
+.container{
+ margin-bottom: 20px;
+ border: 2px dashed cyan;
+}
+.navbar{
+ height: 25px;
+ padding: 10px 0;
+ display: flex;
+ justify-content: space-between;
+ max-width: 900px;
+ margin: 0 auto;
+}
+.menu-container,.link-container{
+ display: flex;
+ justify-content: space-between;
+ width: 90px;
+}
+.nav-img{
+ width: 30px;
+ height: 25px;
+ border: 0.1mm dotted whitesmoke;
+}
+.nav-img img{
+ height: 100%;
+}
+.menu{
+ width: 30px;
+ height: 25px;
+ line-height: 10px;
+}
+.menu-hr{
+ height: 2px;
+ background-color: coral;
+ margin: 0;
+ border: none;
+ transition: 0.5s;
+}
+#mid-menu, #last-menu{
+ margin-top: 4px;
+}
+#mid-menu{
+ width: 70%;
+}
+.menu-text{
+ font-size: 10px;
+ color: gray;
+ transition: 0.5s;
+}
+.menu:hover #mid-menu{
+ width: 100%;
+}
+.menu:hover .menu-hr{
+ background-color: white;
+}
+.menu:hover .menu-text{
+ color: coral;
+}
+
+
+.top-sec{
+ max-width: 900px;
+ margin: 0 auto;
+ background-image: url("images/top-sec.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 600px;
+ position: relative;
+}
+.top-sec-bg{
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.4);
+ position: absolute;
+}
+.top-sec-text{
+ line-height: 40px;
+ color: white;
+ width: 60%;
+ margin: 50px 0 0 20px;
+ font-size: 35px;
+}
+.top-sec-text p{
+ font-size: 19px;
+}
+.top-sec-bottom{
+ margin-top: 120px;
+ display: flex;
+ align-items: center;
+}
+.scroll{
+ width: 30px;
+ height: 50px;
+ border-radius: 5px;
+ border: 2px outset white;
+ background: #323235;
+ margin-right: 15px;
+ overflow: hidden;
+ position: relative;
+}
+.scroll-line{
+ margin: 0 auto;
+ width: 7px;
+ height: 19px;
+ background: coral;
+ position: relative;
+ animation: scroll-line-effect 2s linear infinite;
+}
+@keyframes scroll-line-effect {
+ from{
+  top:  50px;
+ }
+ to{
+  top: -20px;
+ }
+}
