@@ -12,6 +12,7 @@ img{
 }
 .container{
  margin-bottom: 20px;
+ 
 }
 .navbar{
  height: 25px;
@@ -121,6 +122,23 @@ img{
   top:  50px;
  }
  to{
-  top: -20px;
+  top: -30px;
  }
+}
+
+/* main sec style start */
+main{
+ background-color: white;
+}
+/* about me */
+.about-me{
+ max-width: 900px;
+ margin: 0 auto;
+}
+.about-me-img-text{
+ display: flex;
+ justify-content: space-between;
+}
+.about-me-img-text div{
+ width: 48%;
 }
