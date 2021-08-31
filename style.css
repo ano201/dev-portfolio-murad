@@ -13,9 +13,11 @@ img{
 a{
  text-decoration: none;
 }
+a:visited{
+ color: white;
+}
 .container{
  margin-bottom: 20px;
- border: 2px dotted red;
 }
 .navbar{
  height: 25px;
@@ -133,6 +135,7 @@ a{
 /* main sec style start */
 main{
  background-color: white;
+ padding-bottom: 10px;
 }
 /* about me */
 .about-me{
@@ -194,4 +197,37 @@ main{
  display: flex;
  justify-content: space-between;
  border-bottom: 5px inset #31323E;
+}
+
+/* main sec end */
+
+footer{
+ max-width: 900px;
+ color: white;
+ margin: 0 auto;
+}
+.contact-top-text{
+ text-transform: uppercase;
+}
+.contact-form span{
+ color: white;
+ font-weight: bolder;
+}
+.contact-form p{
+ color: grey;
+}
+.contact-form div:hover p{
+ color: white;
+ font-weight: bold;
+ transition: 1s;
+}
+.contact-form img{
+ width: 25px;
+ height: 25px;
+}
+.contact-form div{
+ width: 100%;
+ display: flex;
+ padding-left: 50px;
+ align-items: center;
 }
