@@ -172,16 +172,16 @@ main{
 }
 .services-text-container{
  height: 550px;
- background-image: url("images/lapu.jpeg");
- background-repeat: no-repeat;
- background-size: contain;
  color: orangered;
  font-size: 45px;
  font-weight: bolder;
+ position: relative;
 }
 .services-text-container div{
  padding: 5px;
- background-color: rgba(255, 255, 255, 0.2)
+ background-color: rgba(255, 255, 255, 0.2);
+ position: absolute;
+ top:0;
 }
 .services-bottom{
  display: flex;
@@ -283,7 +283,7 @@ footer{
   width: 100%;
  }
  .services-text-container{
-  font-size: 20px;
+  font-size: 15px;
   height: 200px;
  }
  .contact-form div{
