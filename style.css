@@ -2,7 +2,6 @@ body {
  margin: 0;
  padding: 0 10px;
  background-color: #31323E;
- overflow: hidden;
 }
 .coral-text{
  color: coral;
@@ -18,7 +17,6 @@ a:visited, a:link, a:active{
 }
 .container{
  margin-bottom: 20px;
- border: 2px solid red;
 }
 .navbar{
  height: 25px;
@@ -288,7 +286,8 @@ footer{
   height: 200px;
  }
  .contact-form div{
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 10px;
+  width: 90%;
  }
 }
