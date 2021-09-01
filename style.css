@@ -2,7 +2,7 @@ body {
  margin: 0;
  padding: 0 10px;
  background-color: #31323E;
- font-size: 15pt;
+ overflow: hidden;
 }
 .coral-text{
  color: coral;
@@ -13,11 +13,12 @@ img{
 a{
  text-decoration: none;
 }
-a:visited{
+a:visited, a:link, a:active{
  color: white;
 }
 .container{
  margin-bottom: 20px;
+ border: 2px solid red;
 }
 .navbar{
  height: 25px;
@@ -32,6 +33,9 @@ a:visited{
  display: flex;
  justify-content: space-between;
  width: 90px;
+}
+.menu-container{
+ display: none;
 }
 .nav-img{
  width: 30px;
@@ -72,7 +76,20 @@ a:visited{
 .menu:hover .menu-text{
  color: coral;
 }
-
+.nav-item{
+ max-width: 900px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-around;
+}
+.nav-item div{
+ width: 25%;
+ text-align: center;
+ border-right: 2px inset dimgray;
+}
+#last-nav-item{
+ border: none;
+}
 /* top sec start */
 
 .top-sec{
@@ -179,7 +196,7 @@ main{
  color: white;
  background-color: coral;
  border: none;
- border-left: 2px inset blue;
+ border-left: 2px inset #31323E;
  height: 40px;
  outline: none;
  transition: 0.5s;
@@ -230,4 +247,48 @@ footer{
  display: flex;
  padding-left: 50px;
  align-items: center;
+}
+
+/* media query */
+
+@media only screen and (max-width: 688px) {
+ #nav-item-container{
+  display: none;
+ }
+ .menu-container{
+  display: flex;
+ }
+ .top-sec{
+  height: 250px;
+ }
+ .top-sec-text{
+  font-size: 15px;
+  line-height: 15px;
+  margin: 25px 0 0 10px;
+ }
+ .top-sec-text p{
+  font-size: 12px;
+ }
+ .top-sec-bottom{
+  margin-top: 50px;
+ }
+ .scroll{
+  width: 20px;
+  height: 40px;
+ }
+ .scroll-line{
+  width: 3px;
+ }
+ 
+ main{
+  padding: 5px;
+ }
+ .services-text-container{
+  font-size: 20px;
+  height: 200px;
+ }
+ .contact-form div{
+  padding-left: 30px;
+  font-size: 10px;
+ }
 }
