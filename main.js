@@ -17,7 +17,7 @@ menu.addEventListener('click', function() {
   hr('coral');
   menuText.style.color = 'coral'
  } else {
-  navTab.setAttribute('style', "width:100%; height: 80px;")
+  navTab.setAttribute('style', "width:100%; height: 100px;")
   midHr.style.width = '100%';
   hr('white');
   menuText.style.color = 'white';
