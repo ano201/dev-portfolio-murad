@@ -15,12 +15,12 @@ menu.addEventListener('click', function() {
   navTab.setAttribute('style', "width:0; height: 0;")
   midHr.style.width = '70%';
   hr('coral');
-  menuText.style.color = 'coral'
+  menuText.style.color = 'grey'
  } else {
   navTab.setAttribute('style', "width:100%; height: 100px;")
   midHr.style.width = '100%';
   hr('white');
-  menuText.style.color = 'white';
+  menuText.style.color = 'coral';
  }
 })
 
