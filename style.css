@@ -27,12 +27,18 @@ a:visited, a:link, a:active{
  margin: 0 auto;
  margin-top: 15px;
 }
+.nav-tab{
+ height:0;
+ width: 0;
+ transition: 0.5s;
+ overflow: hidden;
+}
 .menu-container,.link-container{
  display: flex;
  justify-content: space-between;
  width: 90px;
 }
-.menu-container{
+.menu{
  display: none;
 }
 .nav-img{
@@ -65,15 +71,7 @@ a:visited, a:link, a:active{
  color: gray;
  transition: 0.5s;
 }
-.menu:hover #mid-menu{
- width: 100%;
-}
-.menu:hover .menu-hr{
- background-color: white;
-}
-.menu:hover .menu-text{
- color: coral;
-}
+
 .nav-item{
  max-width: 900px;
  margin: 0 auto;
@@ -253,8 +251,8 @@ footer{
  #nav-item-container{
   display: none;
  }
- .menu-container{
-  display: flex;
+ .menu{
+  display: block;
  }
  .top-sec{
   height: 250px;
