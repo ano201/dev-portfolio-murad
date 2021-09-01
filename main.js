@@ -30,5 +30,3 @@ for (let i = 0; i < navLink.length; i++) {
   navTab.setAttribute('style', 'width:0; height: 0;')
  })
 }
-console.log(window.innerWidth);
-console.log(window.innerHeight);
