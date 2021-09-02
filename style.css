@@ -170,18 +170,19 @@ main{
  margin: 0 auto;
  padding: 7px 15px;
 }
+.img-div{
+  position: relative;
+}
 .services-text-container{
- height: 550px;
  color: orangered;
  font-size: 45px;
  font-weight: bolder;
- position: relative;
+ position: absolute;
+ top: 0;
 }
 .services-text-container div{
  padding: 5px;
  background-color: rgba(255, 255, 255, 0.2);
- position: absolute;
- top:0;
 }
 .services-bottom{
  display: flex;
