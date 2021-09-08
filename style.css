@@ -23,6 +23,7 @@ a:visited, a:link, a:active{
  padding: 10px 0;
  display: flex;
  justify-content: space-between;
+ align-items: center;
  max-width: 900px;
  margin: 0 auto;
  margin-top: 15px;
@@ -36,13 +37,22 @@ a:visited, a:link, a:active{
 .menu-container,.link-container{
  display: flex;
  justify-content: space-between;
+}
+.menu-container{
+ width: 250px;
+}
+.menu-container img{
+ height: 55px !important;
+}
+.link-container{
  width: 90px;
+ width: 60px;
 }
 .menu{
  display: none;
 }
 .nav-img{
- width: 55px;
+ width: 120px;
  height: 25px;
 }
 .nav-img img{
